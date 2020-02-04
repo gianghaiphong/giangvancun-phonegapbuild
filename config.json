@@ -1,5 +1,5 @@
 {
-    "app_id": "com.moodle.moodlemobile",
+    "app_id": "giangvan.hopto.org",
     "appname": "GiangVan Mobile",
     "desktopappname": "GiangVan Desktop",
     "versioncode": 3800,
@@ -57,25 +57,14 @@
     },
     "wsservice": "giangvan_mobile_app",
     "wsextservice": "local_mobile",
-    "demo_sites": {
-        "student": {
-            "url": "https:\/\/giangvan.hopto.org",
-            "username": "student",
-            "password": "abc123*"
-        },
-        "teacher": {
-            "url": "https:\/\/giangvan.hopto.org",
-            "username": "teacher",
-            "password": "abc123*"
-        }
-    },
+    "demo_sites": {},
     "font_sizes": [
         62.5,
         75.89,
         93.75
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "giangvan.hopto.org",
+    "siteurl": "http://giangvan.hopto.org",
     "sitename": "GiangVan",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,

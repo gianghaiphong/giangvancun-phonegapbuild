@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<!-- saved from url=(0076)file:///C:/Users/Giang/Documents/GitHub/giangvancun-phonegapbuild/index.html -->
-<html lang="en" dir="ltr" style="font-size: 62.5%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en" dir="ltr">
+<head>
   <script data-ionic="inject">
     (function(w){var i=w.Ionic=w.Ionic||{};i.version='3.9.3';i.angular='5.2.10';i.staticDir='build/';})(window);
   </script>
-  
+  <meta charset="UTF-8">
   <title>Moodle Desktop</title> <!-- Title is used in desktop, but should be ignored in mobile apps. -->
   <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta http-equiv="Content-Security-Policy" content="default-src * filesystem: cdvfile: file: data: gap: https://ssl.gstatic.com; img-src * filesystem: gap: data: cdvfile: file: https://ssl.gstatic.com android-webview-video-poster: blob:; style-src &#39;self&#39; &#39;unsafe-inline&#39; filesystem: cdvfile: file:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; http://localhost:* filesystem: cdvfile: file:; media-src * filesystem: cdvfile: file: gap: blob:">
+  <meta http-equiv="Content-Security-Policy" content="default-src * filesystem: cdvfile: file: data: gap: https://ssl.gstatic.com; img-src * filesystem: gap: data: cdvfile: file: https://ssl.gstatic.com android-webview-video-poster: blob:; style-src 'self' 'unsafe-inline' filesystem: cdvfile: file:; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://localhost:* filesystem: cdvfile: file:; media-src * filesystem: cdvfile: file: gap: blob:">
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
 
@@ -37,10 +37,10 @@
   })();
   </script>
 
-  <script src="./index_files/ydn.db-dev.js.download"></script>
+  <script src="assets/ydn.db-dev.js"></script>
 
-  <link rel="icon" type="image/x-icon" href="file:///C:/Users/Giang/Documents/GitHub/giangvancun-phonegapbuild/assets/icon/favicon.ico">
-  <link rel="manifest" href="file:///C:/Users/Giang/Documents/GitHub/giangvancun-phonegapbuild/manifest.json">
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+  <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#4e8ef7">
 
   <!-- add to homescreen for ios -->
@@ -48,7 +48,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- cordova.js required for cordova apps -->
-  <script src="file:///C:/Users/Giang/Documents/GitHub/giangvancun-phonegapbuild/cordova.js"></script>
+  <script src="cordova.js"></script>
 
   <!-- un-comment this code to enable service worker
   <script>
@@ -59,89 +59,25 @@
     }
   </script>-->
 
-  <link href="./index_files/main.css" rel="stylesheet">
+  <link href="build/main.css" rel="stylesheet">
 
-  <script src="./index_files/MathJax.js.download"></script>
+  <script src="lib/mathjax/MathJax.js?delayStartupUntil=configured"></script>
 
-<style type="text/css">/* Chart.js */
-@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><script type="text/javascript" charset="utf-8" async="" src="./index_files/53.js.download"></script><script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            extensions: [
-                "Safe.js",
-                "tex2jax.js",
-                "mml2jax.js",
-                "MathEvents.js",
-                "MathZoom.js",
-                "MathMenu.js",
-                "toMathML.js",
-                "TeX/noErrors.js",
-                "TeX/noUndefined.js",
-                "TeX/AMSmath.js",
-                "TeX/AMSsymbols.js",
-                "fast-preview.js",
-                "AssistiveMML.js",
-                "[a11y]/accessibility-menu.js"
-            ],
-            jax: ["input/TeX","input/MathML","output/SVG"],
-            showMathMenu: false,
-            errorSettings: { message: ["!"] },
-            skipStartupTypeset: true,
-            messageStyle: "none"
-        });
-    </script><script type="text/javascript" charset="utf-8" async="" src="./index_files/47.js.download"></script><script type="text/javascript" charset="utf-8" async="" src="./index_files/48.js.download"></script></head>
-<body class="scheme-dark">
+</head>
+<body>
 
   <!-- Ionic's root component and where the app will load -->
-  <ion-app class="app-root app-root-md md platform-core enable-hover" ng-version="5.2.10"><div app-viewport=""></div><ng-component class="app-root"><ion-nav><div nav-viewport=""></div><page-core-login-site class="ion-page show-page" style="z-index: 98;"><ion-header class="header header-md">
-    <ion-navbar class="toolbar toolbar-md" core-back-button=""><div class="toolbar-background toolbar-background-md"></div><button class="back-button bar-button bar-button-md back-button-md bar-button-default bar-button-default-md" ion-button="bar-button"><span class="button-inner"><ion-icon class="back-button-icon icon icon-md back-button-icon-md ion-md-arrow-back" role="img" aria-label="arrow back"></ion-icon><span class="back-button-text back-button-text-md"></span></span><div class="button-effect"></div></button><ion-buttons end="" class="bar-buttons bar-buttons-md">
-            <button icon-only="" ion-button="" class="bar-button bar-button-md bar-button-default bar-button-default-md" aria-label="core.mainmenu.appsettings"><span class="button-inner">
-                <ion-icon name="cog" role="img" class="icon icon-md ion-md-cog" aria-label="cog"></ion-icon>
-            </span><div class="button-effect"></div></button>
-            <button icon-only="" ion-button="" class="bar-button bar-button-md bar-button-default bar-button-default-md" aria-label="core.help"><span class="button-inner">
-                <ion-icon name="help-circle" role="img" class="icon icon-md ion-md-help-circle" aria-label="help circle"></ion-icon>
-            </span><div class="button-effect"></div></button>
-        </ion-buttons><div class="toolbar-content toolbar-content-md">
-        <ion-title class="title title-md"><div class="toolbar-title toolbar-title-md">core.login.connecttoEduNavigator</div></ion-title>
-
-        
-    </div></ion-navbar>
-</ion-header>
-<ion-content class="core-center-view content content-md"><div class="fixed-content" style="margin-top: 56px;"></div><div class="scroll-content" style="margin-top: 56px;">
-    <div class="box">
-        <div padding="" text-center="">
-            <img class="avatar-full login-logo" role="presentation" src="./index_files/login_logo.png">
-        </div>
-        <!----><form ion-list="" novalidate="" class="ng-untouched ng-pristine ng-invalid">
-            
-            <!----><!---->
-                <p padding="">core.login.newsitedescription</p>
-                <ion-item class="item item-block item-md item-input ng-untouched ng-pristine ng-invalid"><div class="item-inner"><div class="input-wrapper"><!----><ion-input formcontrolname="siteUrl" name="url" type="url" class="input input-md ng-untouched ng-pristine ng-invalid"><!----><input class="text-input text-input-md" dir="auto" type="url" aria-labelledby="lbl-0" autocomplete="off" autocorrect="off" placeholder="core.login.siteaddress" formcontrolname="siteUrl" name="url"><!----><!----><!----></ion-input></div><!----></div><div class="button-effect"></div></ion-item>
-            
-
-            <!---->
-
-            <button block="" ion-button="" class="button button-md button-default button-default-md button-block button-block-md" disabled=""><span class="button-inner">core.login.connect</span><div class="button-effect"></div></button>
-        </form>
-        
-        <!---->
-
-        
-        <!---->
-    </div>
-</div></ion-content>
-</page-core-login-site><div class="nav-decor"></div></ion-nav>
-</ng-component><div overlay-portal=""></div><div overlay-portal=""></div><div class="loading-portal" overlay-portal=""></div><div class="toast-portal"></div><div class="click-block click-block-enabled"></div></ion-app>
+  <ion-app></ion-app>
 
   <!-- The polyfills js is generated during the build process -->
-  <script src="./index_files/polyfills.js.download"></script>
+  <script src="build/polyfills.js"></script>
 
   <!-- The vendor js is generated during the build process
        It contains all of the dependencies in node_modules -->
-  <script src="./index_files/vendor.js.download"></script>
+  <script src="build/vendor.js"></script>
 
   <!-- The main bundle js is generated during the build process -->
-  <script src="./index_files/main.js.download"></script><textarea class="core-browser-copy-area" aria-hidden="true"></textarea>
+  <script src="build/main.js"></script>
 
-
-
-</body></html>
+</body>
+</html>
